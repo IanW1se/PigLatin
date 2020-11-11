@@ -7,12 +7,19 @@ public class PigLatin {
   
   public static int findFirstVowel(String word) {
   
-    return -1; 
+    int index = - 1;
+    
+    return index; 
   }
   
   public static String pigLatin(String word) {
   
-    return "";
+    if(findFirstVowel(word) == - 1) {
+      return word + "ay";
+    }
+    else {
+      return "CHANGE THIS!"
+    }
   }
 
 }
